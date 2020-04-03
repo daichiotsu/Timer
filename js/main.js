@@ -1,5 +1,7 @@
 'use strict'
 
+// 編集
+
 {
   const timer = document.getElementById('timer');
   const start = document.getElementById('start');
