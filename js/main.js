@@ -9,11 +9,11 @@
   const reset = document.getElementById('reset');
 
   let startTime;
-  let timeoutId; 
+  let timeoutId;
   let elapsedTime = 0;
 
   function countUp(){
-    // console.log(Date.now() - startTime); //Date.nowは常に動いている「時」なので、ボタンを押したときの時刻からの経過時間が表示される
+    console.log(Date.now() - startTime); //Date.nowは常に動いている「時」なので、ボタンを押したときの時刻からの経過時間が表示される
     
     const d = new Date(Date.now() - startTime + elapsedTime);
     const m = String(d.getMinutes()).padStart(2, '0');
